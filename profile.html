@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="../intro/css/global5.css">
+    <link rel="stylesheet" href="../intro/css/header5.css">
+    <link rel="stylesheet" href="../intro/css/about5.css">
+    <link rel="stylesheet" href="css/manage.css">
+    <title>Làng Sốm</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-container">
+                    <div class="header-logo">
+                        <img src="./images/logo.png" alt="Logo">
+                    </div>
+                    <div class="header-list">
+                        <ul class="header-menu">
+                            <li>
+                                <a href="#" class="menu-item">Trang chủ</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu-item">Giới thiệu</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu-item">Liên hệ</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu-item">Cửa hàng</a>
+                            </li>
+                        </ul>
+                        <ul class="header-icon-list">
+                            <li class="header-auth header-icon">
+                                <a href="#" class="icon-item">
+                                    <img src="images/user.png" alt="">
+                                </a>
+                            </li>
+                            <li class="header-icon">
+                                <a href="#" class="icon-item">
+                                    <img src="images/cart.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="manage-section">
+                    <div class="manage-menu">
+                        <h1 class="manage-title">Quản lí
+                            <br>
+                            <span class="manage-title-small">tài khoản</span>
+                        </h1>
+                        <ul class="manage-list">
+                            <li>
+                                <a href="#" class="manage-item active">Thông tin tài khoản</a>
+                            </li>
+                            <li>
+                                <a href="#" class="manage-item">Liên kết ngân hàng</a>
+                            </li>
+                            <li>
+                                <a href="#" class="manage-item">Đơn hàng của toi</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="manage-form-container">
+                        <form action="" class="manage-form">
+                            <h2 class="manage-form-title">Thông tin tài khoản</h2>
+                            <label class="manage-label" for="profile-name">Tên khách hàng</label>
+                            <div class="manage-input">
+                                <input class="input" type="text" placeholder="Họ và tên" id="profile-name">
+                            </div>
+                            <label class="manage-label">Ngày sinh</label>
+                            <div class="select-container">
+                                <select name="date" id="profile-date" class="manage-select" required>
+                                    <option value="0" disabled selected hidden>Ngày</option>
+                                </select>
+                                <select name="month" id="profile-month" class="manage-select" required>
+                                    <option value="0" disabled selected hidden>Tháng</option>
+                                </select>
+                                <select name="year" id="profile-year" class="manage-select" required>
+                                    <option value="0" disabled selected hidden>Năm</option>
+                                </select>
+                            </div>
+                            <label class="manage-label" for="profile-email">Email</label>
+                            <div class="manage-input">
+                                <input class="input" type="email" placeholder="abc123@abc.com" id="profile-email">
+                                <div class="input-icon-container">
+                                    <div class="icon-container">
+                                        <img src="images/pencil.png" alt="">
+                                    </div>
+                                    <div class="icon-container">
+                                        <img src="images/mail.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <label class="manage-label" for="profile-tel">Số điện thoại</label>
+                            <div class="manage-input">
+                                <input class="input" type="phone" placeholder="0123456789" id="profile-tel">
+                                <div class="input-icon-container">
+                                    <img src="images/pencil.png" alt="">
+                                </div>
+                            </div>
+                            <div class="manage-btns">
+                                <button class="manage-btn">Hủy</button>
+                                <button class="manage-btn">Lưu</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
